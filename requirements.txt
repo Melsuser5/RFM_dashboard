@@ -1,2 +1,2 @@
-python -m pip install pandas
-python -m pip install plotly==5.15.0
+pandas
+plotly==5.15.0
