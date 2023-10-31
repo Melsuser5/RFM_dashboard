@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-df = pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_dashboard/main/rmf_data_labels.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Melsuser5/RFM_dashboard/main/23_q4_clusters.csv')
 subscribers_df = df[df['subscriber'] == 'Y'].copy()
 non_subscribers_df = df[df['subscriber'] == 'N'].copy()
 
